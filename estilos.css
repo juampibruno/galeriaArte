@@ -1,0 +1,25 @@
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+
+.bitter-font {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 32px;
+}
+
+
+
+.contenedor-icono{
+    display: flex;
+    padding: 10px
+}
+
+.contenedor-inicial {
+    width: 800px;
+    
+}
