@@ -1,3 +1,4 @@
+
 .logo {
     width: 32px;
     height: 32px;
@@ -19,7 +20,23 @@
     padding: 10px
 }
 
-.contenedor-inicial {
-    width: 800px;
-    
+
+img {
+    object-fit: cover;
 }
+
+ .contenedor-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+.grid-item {
+    padding: 10px
+} 
+
+h3 {
+    padding:10px;
+    font-size: 64px;
+}
+
+
