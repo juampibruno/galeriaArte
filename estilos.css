@@ -1,18 +1,70 @@
+:root {
+    --bg-light: #f9f9fa;
+    --bg-dark: #2C2C2C;
+}
+
+body {
+    background-color: var(--bg-light);
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Fuentes  */
+.bitter-font {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
+.ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .ibm-plex-serif-light {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .orbitron-bold {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .orbitron-regular {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* 
+  HEADER STYLES */
 
 .logo {
     width: 32px;
     height: 32px;
 }
 
-
-.bitter-font {
-  font-family: "Bitter", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 32px;
+header {
+    border-bottom: 1px solid #ccc;
 }
-
 
 
 .contenedor-icono{
@@ -20,23 +72,123 @@
     padding: 10px
 }
 
+button {
+    background-color: #253026;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+/* MAIN STYLES  */
+
+.contenedor-img {
+    width: 320px;
+}
 
 img {
     object-fit: cover;
-}
-
- .contenedor-grid {
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-}
-
-.grid-item {
-    padding: 10px
-} 
-
-h3 {
-    padding:10px;
-    font-size: 64px;
+    max-height: 100%;
 }
 
 
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.texto {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+}
+
+.leyenda {
+    font-size: 14px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.btn {
+    font-size: 17px;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding: 11px 21px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+     white-space: nowrap;
+     border-radius: 980px;
+}
+
+
+
+.bg-black {
+    width: 100%;
+    background-color: var(--bg-dark);
+    color: #ffff;
+}
+
+.contenedor-caos h2 {
+    align-self: flex-start;
+    padding: 20px 25px;
+}
+
+.contenedor-caos p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.contenedor-belleza h2  {
+    align-self: flex-start;
+    padding: 20px 25px 10px;
+}
+
+.contenedor-belleza {
+    width: 100%;
+}
+
+.frase {
+    width: 340px;
+    padding: 10px 25px;
+}
+
+.contenedor-belleza p {
+    font-size: 16px;
+}
+
+.contenedor-abstracto {
+    width: 100%;
+}
+
+.contenedor-abstracto h2 {
+    align-self: flex-start;
+    padding: 20px 25px 10px;
+    font-size: 25px;
+}
+
+.contenedor-abstracto p {
+    font-size: 16px;
+}
+
+.contenedor-viaje h2 {
+    font-size: 25px;
+    padding: 20px 25px 10px;
+    align-self: flex-start;
+}
