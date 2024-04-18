@@ -66,6 +66,11 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+.icono-text  {
+    padding: 0 5px;
+    align-self: center;
+}
+
 
 .contenedor-icono{
     display: flex;
@@ -155,11 +160,6 @@ img {
 }
 
 
-.contenedor-belleza h2  {
-    align-self: flex-start;
-    padding: 20px 25px 10px;
-}
-
 .contenedor-belleza {
     width: 100%;
 }
@@ -169,26 +169,13 @@ img {
     padding: 10px 25px;
 }
 
-.contenedor-belleza p {
-    font-size: 16px;
-}
 
 .contenedor-abstracto {
     width: 100%;
 }
 
-.contenedor-abstracto h2 {
+h2 {
     align-self: flex-start;
     padding: 20px 25px 10px;
-    font-size: 25px;
 }
 
-.contenedor-abstracto p {
-    font-size: 16px;
-}
-
-.contenedor-viaje h2 {
-    font-size: 25px;
-    padding: 20px 25px 10px;
-    align-self: flex-start;
-}
