@@ -98,7 +98,7 @@ img {
 }
 
 
-.contenedor {
+.contenedor-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,8 +137,8 @@ img {
     cursor: pointer;
     display: inline-block;
     text-align: center;
-     white-space: nowrap;
-     border-radius: 980px;
+    white-space: nowrap;
+    border-radius: 980px;
 }
 
 
@@ -179,3 +179,307 @@ h2 {
     padding: 20px 25px 10px;
 }
 
+.c-mirada-big {
+    display: none;
+}
+
+.img-sangre {
+    display: none;
+}
+
+.img-escultura-extra {
+    display: none;
+}
+
+/* Estilos para tabletas */
+@media (min-width: 740px) and (max-width: 1024px) {
+
+    h2,h3 {
+        font-size: 32px;
+    }
+
+    .contenedor-inicial {
+        display: grid;
+        grid-template-columns: minmax(320px,1fr) minmax(340px,1fr);
+        grid-gap: 20px;
+    }
+
+    .txt-inicial {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .img-inicial{
+        grid-column: 2;
+        margin-top: 10px;
+    }
+
+    .contenedor-caos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-caos h2 {
+        display: inline-block;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .contenedor-caos .texto {
+        width: 550px;
+    }
+
+
+    .contenedor-belleza .frase {
+        width: 550px;
+        align-self: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .horacio {
+        padding: 20px;
+    }
+
+    .c-escultura {
+        margin: 20px 20px 5px;
+    }
+
+    .t-escultura {
+        width: 700px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .c-escultura-h {
+        margin-top: 20px;
+    }
+
+    .t-escultura-h {
+        width: 620px;
+    }
+
+    .c-sentado {
+        margin-top: 10px;
+    }
+
+    .contenedor-abstracto h2 {
+        margin-top: 30px;
+    }
+
+    .contenedor-abstracto .frase {
+        width: 620px;
+        align-self: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .t-abstracto {
+        width: 700px;
+        margin-bottom: 20px;
+    }
+
+    .t-azul {
+        width: 550px;
+        margin-bottom: 20px;
+    }
+    .c-ola {
+        margin-top: 10px;
+    }
+
+    .contenedor-viaje h2 {
+        align-self: center;
+    }
+    .contenedor-viaje .frase {
+        width: 600px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-viaje .texto {
+        width: 650px;
+        margin-bottom: 20px;
+    }
+
+    .c-mirada {
+        display:none
+    }
+
+    .c-mirada-big {
+        display: block;
+    }
+
+    .t-ojos {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+    .t-dualidad-mirada {
+        padding: 20px 20px;
+    }
+
+
+}
+
+
+
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1024px) {
+    .c-mirada {
+        display: none;
+    }
+
+    .c-mirada-big {
+        display: block;
+    }
+
+    h2,h3 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .contenedor-inicial {
+        display: grid;
+        grid-template-columns: minmax(590px,1fr) minmax(500px,1fr);
+        grid-gap: 20px;
+    }
+
+    .txt-inicial {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .img-inicial{
+        grid-column: 2;
+        margin-top: 10px;
+        min-width: 500px;
+    }
+
+    .contenedor-caos-top {
+        display: grid;
+        grid-template-columns: minmax(450px,1fr) minmax(550px,1fr);
+        grid-template-rows: 90px repeat(3,227px);
+    }
+
+    .contenedor-caos-top h2 {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    .img-guerra {
+        grid-column: 1;
+        grid-row: 2/span 3;
+        justify-self: center;
+    }
+
+    .img-sangre {
+        display: block;
+        grid-column: 2;
+        grid-row: 3/4;
+        align-self: center;
+    }
+
+    .t-guerra {
+        grid-column: 2;
+        grid-row: 4;
+        padding: 20px;
+        width: 540px;
+    }
+
+    .contenedor-caos-down {
+        display: grid;
+        grid-template-columns: minmax(700px,1fr) minmax(400px,1fr);
+        grid-template-rows: 50px 500px 100px 555px 50px;
+    }
+
+    .c-esqueleto {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .t-esqueleto {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .c-colores {
+        grid-column: 1;
+        grid-row: 4;
+        align-self: center;
+        max-height: 100%;
+    }
+
+    .t-colores {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .t-esqueleto, .t-colores {
+        padding-left: 40px;
+        align-self: end;
+        width: 500px;
+    }
+
+    .contenedor-belleza-top {
+        display: grid;
+        grid-template-columns: 650px 600px;
+        grid-template-rows: 200px 600px 30px 50px 30px;
+    }
+
+    .contenedor-belleza-top h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .contenedor-belleza-top .frase {
+        grid-column: 1/2;
+        grid-row: 1;
+        width: 900px;
+    }
+
+    .c-monet {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .c-vangogh {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .horacio {
+        grid-column: 1/2;
+        grid-row: 4;
+       justify-self: end;
+       width: 450px;
+    
+    }
+
+    .contenedor-belleza-med {
+        display: grid;
+        grid-template-columns: minmax(500px,1fr) minmax(630px, 1fr);
+    }
+
+    .t-escultura {
+        width: 700px;
+        justify-self: end;
+        align-self: end;
+    }
+
+    .img-escultura-extra {
+        display: block;
+        margin: 30px;
+    }
+}
