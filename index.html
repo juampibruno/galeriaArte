@@ -30,7 +30,7 @@
     </header>
     <main>
         <div class="contenedor-flex contenedor-inicial">
-            <div class="contenedor-imagen img-inicial">
+            <div class="img-inicial">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="img/big/inicial-big.png">
                     <img src="img/inicial.png" alt="">
@@ -41,21 +41,21 @@
                     Pablo Picasso</h3>
                 <p class="leyenda">Bienvenido a Art BS. Explora. Sumergite </p>
                 <button data-playing="false" role="switch" aria-checked="false" class="btn btn-1">Music On</button>
-                <audio id="audio-player" src="audio/Chopin.mp3"></audio>
+                <audio id="audio-player" crossorigin="anonymous" src="audio/Chopin.mp3"></audio>
             </div>
         </div>
         <div class="bg-black ibm-plex-serif-light contenedor-flex">
             <div class="contenedor-caos">
                 <div class="contenedor-caos-top">
                     <h2 class="ibm-plex-serif-regular">El arte y el caos</h2>
-                    <div class="contenedor-imagen img-guerra">
+                    <div class="img-guerra">
                         <picture>
                             <source srcset="img/big/guerra-big.png" media="(min-width:740px) and (max-width:1024px)">
                             <source media="(min-width: 1024px)" srcset="img/big/guerra-m.png">
                             <img src="img/guerra.png" alt="imagenes de bomba">
                         </picture>
                     </div>
-                    <div class="contenedor-imagen img-sangre">
+                    <div class="img-sangre">
                         <img src="img/big/sangre.png" alt="">
                     </div>
                     <div class="texto t-guerra">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="contenedor-caos-down">
-                    <div class="contenedor-imagen c-esqueleto">
+                    <div class="c-esqueleto">
                         <picture>
                             <source media="(min-width: 740px) and (max-width:1024px)" srcset="img/big/esqueleto-m.png">
                             <source media="(min-width: 1024px)" srcset="img/big/esqueleto-big.png">
@@ -75,7 +75,7 @@
                         <p>El arte encuentra su inspiración en el caos del mundo, transformándolo en un universo de
                             formas y símbolos donde cada pincelada cuenta una historia.</p>
                     </div>
-                    <div class="contenedor-imagen c-colores">
+                    <div class="c-colores">
                         <picture>
                             <source media="(min-width: 740px) and (max-width:1024px)" srcset="img/big/colores-m.png">
                             <source media="(min-width: 1024px)" srcset="img/big/colores-big.png">
@@ -90,33 +90,33 @@
             </div>
         </div>
         <div class="contenedor-belleza bitter-font contenedor-flex">
-            <div class = "contenedor-belleza-top">
+            <div class="contenedor-belleza-top">
                 <h2>La belleza del arte</h2>
                 <div class="texto frase">
                     <p>El arte es el puente que une lo terrible y lo hermoso, mostrándonos que en la experiencia
                         humana no hay límites para la creatividad y la resiliencia</p>
                 </div>
-                <div class="contenedor-imagen c-monet">
+                <div class="c-monet">
                     <picture>
                         <source media="(min-width: 740px) and (max-width:1024px)" srcset="img/big/monet-m.png">
                         <source media="(min-width: 1024px)" srcset="img/big/monet-big.png">
                         <img src="img/monet-marco.png" alt="cuadro paisaje monet">
                     </picture>
-    
+
                 </div>
                 <div class="texto horacio">
                     <p>Una pintura es un poema sin palabras.<br>
                         Horacio</p>
                 </div>
-                <div class="contenedor-imagen c-vangogh">
+                <div class="c-vangogh">
                     <picture>
                         <source media="(min-width: 740px)" srcset="img/big/vangogh-big.png">
                         <img src="img/vangogh.png" alt="cuadro van gogh">
                     </picture>
                 </div>
             </div>
-            <div class = "contenedor-belleza-med">
-                <div class="contenedor-imagen c-escultura">
+            <div class="contenedor-belleza-med">
+                <div class="c-escultura">
                     <picture>
                         <source media="(min-width: 740px) and (max-width:1024px)" srcset="img/big/escultura-big.png">
                         <source media="(min-width: 1024px)" srcset="img/big/escultura-m.png">
@@ -129,137 +129,165 @@
                         nosotros mismos.</p>
                 </div>
             </div>
-            <div class = "img-escultura-extra">
+            <div class="img-escultura-extra">
                 <img src="img/big/escultura-extra.png" alt="">
             </div>
-            <div class="contenedor-imagen">
-                <picture>
-                    <source media="(min-width: 740px)" srcset="img/big/amor-big.png">
-                    <img src="img/amor.png" alt="">
-                </picture>
+            <div class="contenedor-belleza-down">
+                <div class="img-pavo-extra">
+                    <img src="img/big/pavo.png" alt="">
+                </div>
+                <div class="c-amor">
+                    <picture>
+                        <source media="(min-width: 740px)" srcset="img/big/amor-big.png">
+                        <img src="img/amor.png" alt="">
+                    </picture>
+                </div>
             </div>
-            <div class="contenedor-imagen c-escultura-h">
-                <picture>
-                    <source media="(min-width:740px)" srcset="img/big/escultura-hombre-big.png">
-                    <img src="img/escultura-hombre.png" alt="">
-                </picture>
+            <div class = "contenedor-belleza-esc">
+                <div class="c-escultura-h">
+                    <picture>
+                        <source media="(min-width:740px)" srcset="img/big/escultura-hombre-big.png">
+                        <img src="img/escultura-hombre.png" alt="">
+                    </picture>
+                </div>
+                <div class="texto t-escultura-h">
+                    <p>La belleza de la escultura radica en su capacidad para capturar la esencia misma de la forma
+                        humana y transmitir emociones profundas a través de la textura y el movimiento</p>
+                </div>
             </div>
-            <div class="texto t-escultura-h">
-                <p>La belleza de la escultura radica en su capacidad para capturar la esencia misma de la forma
-                    humana y transmitir emociones profundas a través de la textura y el movimiento</p>
-            </div>
-            <div class="contenedor-imagen c-sentado">
-                <picture>
-                    <source media="(min-width: 740px)" srcset="img/big/sentado-big.png">
-                    <img src="img/sentado.png" alt="">
-                </picture>
+            <div class ="contenedor-belleza-sen">
+                <div class="c-sentado">
+                    <picture>
+                        <source media="(min-width: 740px)" srcset="img/big/sentado-big.png">
+                        <img src="img/sentado.png" alt="">
+                    </picture>
+                </div>
+                <div class = "img-circulo-extra">
+                    <img src="img/big/circuloRuso.png" alt="">
+                </div>
             </div>
         </div>
         <div class="contenedor-abstracto orbitron-regular contenedor-flex">
-            <h2 class="obitron-bold">Arte moderno</h2>
-            <div class="texto frase">
-                <p>El arte abstracto es una invitación a un viaje de la mente, donde las formas y los colores
-                    nos guían a través de paisajes emocionales sin límites ni fronteras</p>
+            <div class = "contenedor-abstracto-top">
+                <h2 class="obitron-bold">Arte moderno</h2>
+                <div class="texto frase">
+                    <p>El arte abstracto es una invitación a un viaje de la mente, donde las formas y los colores
+                        nos guían a través de paisajes emocionales sin límites ni fronteras</p>
+                </div>
+                <div class="img-mdq">
+                    <picture>
+                        <source media="(min-width: 740px)" srcset="img/big/abstractoMDQ-big.png">
+                        <img src="img/abstractoMDQ.png" alt="">
+                    </picture>
+                </div>
+                <div class="texto t-abstracto">
+                    <p>creando un universo de expresión pura y emocional que desafía la lógica y despierta la
+                        imaginación</p>
+                </div>
             </div>
-            <div class="contenedor-imagen">
-                <picture>
-                    <source media="(min-width: 740px)" srcset="img/big/abstractoMDQ-big.png">
-                    <img src="img/abstractoMDQ.png" alt="">
-                </picture>
+            <div class = "contenedor-abstracto-med">
+                <div class="img-azul">
+                    <picture>
+                        <source media="(min-width: 740px)" srcset="img/big/azul-big.png">
+                        <img src="img/azul.png" alt="">
+                    </picture>
+                </div>
+                <div class="texto t-azul">
+                    <p>donde las formas fluyen y se entrelazan en un baile eterno de creatividad y libertad,
+                        reflejando la complejidad y la belleza del alma humana</p>
+                </div>
+                <div class = "img-dino-extra">
+                    <img src="img/big/dino.png" alt="">
+                </div>
             </div>
-            <div class="texto t-abstracto">
-                <p>creando un universo de expresión pura y emocional que desafía la lógica y despierta la
-                    imaginación</p>
+            <div class = "contenedor-abstracto-down">
+                <div class="img-dots">
+                    <picture>
+                        <source media="(min-width: 740px) and (max-width:1040px)" srcset="img/big/dots-big.png">
+                        <source media="(min-width: 1040px)" srcset="img/big/dots-m.png">
+                        <img src="img/dots.png" alt="">
+                    </picture>
+                </div>
+                <div class="c-ola">
+                    <picture>
+                        <source media="(min-width: 740px)" srcset="img/big/ola-big.png">
+                        <img src="img/ola.png" alt="">
+                    </picture>
+                </div>
             </div>
-            <div class="contenedor-imagen">
-                <picture>
-                    <source media="(min-width: 740px)" srcset="img/big/azul-big.png">
-                    <img src="img/azul.png" alt="">
-                </picture>
-            </div>
-            <div class="texto t-azul">
-                <p>donde las formas fluyen y se entrelazan en un baile eterno de creatividad y libertad,
-                    reflejando la complejidad y la belleza del alma humana</p>
-            </div>
-            <div class="contenedor-imagen">
-                <picture>
-                    <source media="(min-width: 740px) and (max-width:1040px)" srcset="img/big/dots-big.png">
-                    <img src="img/dots.png" alt="">
-                </picture>
-            </div>
-            <div class="contenedor-imagen c-ola">
-                <picture>
-                    <source media="(min-width: 740px)" srcset="img/big/ola-big.png">
-                    <img src="img/ola.png" alt="">
-                </picture>
-            </div>
+           
         </div>
         <div class="bg-black bitter-font">
             <div class="contenedor-viaje contenedor-flex">
-                <h2>Viaje interior</h2>
-                <div class="texto frase">
-                    <p>El arte es la forma más intensa de individualismo que el mundo haya conocido.<br>
-                        Oscar Wilde</p>
+                <div class = "contenedor-viaje-top">
+                    <h2>Viaje interior</h2>
+                    <div class="texto frase">
+                        <p>El arte es la forma más intensa de individualismo que el mundo haya conocido.<br>
+                            Oscar Wilde</p>
+                    </div>
+                    <div class="img-ojo">
+                        <picture>
+                            <source media="(min-width: 740px) and (max-width: 1040px)" srcset="img/big/ojo-big.png">
+                            <source media="(min-width: 1040px)" srcset="img/big/ojo-m.png">
+                            <img src="img/ojo.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="texto t-ojo">
+                        <p>El arte es un espejo que refleja nuestra alma, invitándonos a mirar dentro de nosotros mismos
+                            y descubrir los misterios que yacen en lo más profundo de nuestro ser</p>
+                    </div>
                 </div>
-                <div class="contenedor-imagen">
-                    <picture>
-                        <source media="(min-width: 740px) and (max-width: 1040px)" srcset="img/big/ojo-big.png">
-                        <img src="img/ojo.png" alt="">
-                    </picture>
-                </div>
-                <div class="texto">
-                    <p>El arte es un espejo que refleja nuestra alma, invitándonos a mirar dentro de nosotros mismos
-                        y descubrir los misterios que yacen en lo más profundo de nuestro ser</p>
-                </div>
-                <div class="contenedor-imagen c-mirada">
+                <div class="c-mirada">
                     <img src="img/mirada-adentro.png" alt="">
                 </div>
-                <div class="contenedor-imagen c-mirada">
+                <div class="c-mirada">
                     <img src="img/perdido-interior.png" alt="">
                 </div>
-                <div class="contenedor-imagen c-mirada-big">
+                <div class="c-mirada-big">
                     <picture>
                         <source media="(max-width: 1040px)" srcset="img/big/mirada-dentro-m.png">
                         <img src="img/big/mirada-dentro-big.png" alt="">
                     </picture>
                 </div>
-                <div class="texto">
+                <div class="texto t-mirada">
                     <p>La mirada interior puede convertirse en un viaje solitario a través de los laberintos de
                         nuestra alma, donde nos encontramos perdidos en un paisaje interno que parece infinito y
                         desconocido.</p>
                 </div>
-                <div class="contenedor-imagen">
-                    <picture>
-                        <source media="(min-width: 740px)" srcset="img/big/varios-ojos-big.png">
-                        <img src="img/varios-ojos.png" alt="">
-                    </picture>
+                <div class = "contenedor-viaje-med">
+                    <div class="img-ojos">
+                        <picture>
+                            <source media="(min-width: 740px)" srcset="img/big/varios-ojos-big.png">
+                            <img src="img/varios-ojos.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="texto t-ojos">
+                        <p>La mirada interior nos desafía a adoptar múltiples puntos de vista, a abrazar la ambigüedad y
+                            a celebrar la diversidad de nuestras experiencias internas, recordándonos que la verdad es
+                            siempre polifacética y cambiante.</p>
+                    </div>
+                    <div class="img-dualidad">
+                        <picture>
+                            <source media="(min-width: 740px)" srcset="img/big/dualidad-mirada-big.png">
+                            <img src="img/dualidad-mirada.png" alt="">
+                        </picture>
+                    </div>
                 </div>
-                <div class="texto t-ojos">
-                    <p>La mirada interior nos desafía a adoptar múltiples puntos de vista, a abrazar la ambigüedad y
-                        a celebrar la diversidad de nuestras experiencias internas, recordándonos que la verdad es
-                        siempre polifacética y cambiante.</p>
+                <div class = "contenedor-viaje-down">
+                    <div class="texto t-dualidad-mirada">
+                        <p>A través de la mirada interior, descubrimos que las máscaras que llevamos son solo ilusiones
+                            efímeras, y que la verdadera belleza reside en la desnudez y la autenticidad del ser.</p>
+                    </div>
+                    <div class="img-careta">
+                        <picture>
+                            <source media="(min-width: 740px)" srcset="img/big/careta-big.png">
+                            <img src="img/careta.png" alt="">
+                        </picture>
+                    </div>
                 </div>
-                <div class="contenedor-imagen">
-                    <picture>
-                        <source media="(min-width: 740px)" srcset="img/big/dualidad-mirada-big.png">
-                        <img src="img/dualidad-mirada.png" alt="">
-                    </picture>
                 </div>
-                <div class="texto t-dualidad-mirada">
-                    <p>A través de la mirada interior, descubrimos que las máscaras que llevamos son solo ilusiones
-                        efímeras, y que la verdadera belleza reside en la desnudez y la autenticidad del ser.</p>
-                </div>
-                <div class="contenedor-imagen">
-                    <picture>
-                        <source media="(min-width: 740px)" srcset="img/big/careta-big.png">
-                        <img src="img/careta.png" alt="">
-                    </picture>
-                </div>
-            </div>
-
         </div>
     </main>
-
 
     <script src="base.js"></script>
 </body>
