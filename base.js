@@ -22,9 +22,11 @@ playButton.addEventListener(
     if (playButton.dataset.playing === "false") {
       audioElement.play();
       playButton.dataset.playing = "true";
+      playButton.textContent = "Music OFF"
     } else if (playButton.dataset.playing === "true") {
       audioElement.pause();
       playButton.dataset.playing = "false";
+      playButton.textContent = "Music ON"
     }
   },
   false,

@@ -1,10 +1,11 @@
 :root {
     --bg-light: #f9f9fa;
     --bg-dark: #2C2C2C;
+    --bg-footer: #f5f5f7;
 }
-
 body {
     background-color: var(--bg-light);
+    scroll-behavior: smooth;
 }
 
 p {
@@ -58,8 +59,7 @@ h3 {
   HEADER STYLES */
 
 .logo {
-    width: 32px;
-    height: 32px;
+    width: 28.75px;
 }
 
 header {
@@ -196,7 +196,10 @@ h2 {
 }
 
 /* Estilos para tabletas */
-@media (min-width: 740px) and (max-width: 1024px) {
+@media (min-width: 740px) and (max-width: 1299px) {
+    .logo {
+        width: 36.8px;
+    }
 
     h2,h3 {
         font-size: 32px;
@@ -255,7 +258,7 @@ h2 {
     .t-escultura {
         width: 700px;
         margin-bottom: 10px;
-        padding-left: 10px;
+        padding-left: 40px;
     }
 
     .c-escultura-h {
@@ -332,7 +335,11 @@ h2 {
 
 
 /* Estilos para pantallas grandes */
-@media (min-width: 1024px) {
+@media (min-width: 1300px) {
+    .logo {
+        width: 46px;
+    }
+
     .c-mirada {
         display: none;
     }
@@ -341,7 +348,7 @@ h2 {
         display: block;
     }
 
-    h2,h3 {
+    h3 {
         font-size: 32px;
     }
 
