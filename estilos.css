@@ -195,6 +195,24 @@ h2 {
     display: none;
 }
 
+footer {
+    margin: 50px;
+}
+
+.contedor-footer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea {
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+
 /* Estilos para tabletas */
 @media (min-width: 740px) and (max-width: 1299px) {
     .logo {
