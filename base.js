@@ -1,5 +1,6 @@
 const audioElement = document.getElementById('audio-player');
 const playButton = document.querySelector('.btn-1');
+const arrowButton = document.querySelector('.btn-flecha');
 
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 let audioContext;
@@ -39,3 +40,10 @@ audioElement.addEventListener(
   },
   false,
 );
+
+function scrollToTop() {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  });
+}
