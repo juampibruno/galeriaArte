@@ -291,6 +291,8 @@ footer h3 {
     padding: 10px 10px;
     font-weight: normal;
     font-family: -apple-system,system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-shrink: 2;
+    line-height: 1.5;
 }
 
 .info {
