@@ -59,6 +59,12 @@ h3 {
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SF-Pro.ttf');
+}
+  
+
 /* ICONOS*/
 
 .material-symbols-outlined {
@@ -293,9 +299,8 @@ footer h3 {
 .firma h4 {
     font-size: 14px;
     padding: 10px 10px;
-    font-weight: normal;
-    font-family: "proxima nova light",-apple-system,system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.5;
+    font-weight: 200;
+    font-family: 'SF Pro';
 }
 
 .info {
@@ -315,6 +320,17 @@ footer h3 {
     align-items: center;
 
 }
+
+.contenedor-caos {
+    font-family: 'SF Pro';
+    font-weight: 100;
+}
+
+.contenedor-caos h2 {
+    font-weight: 400;
+}
+
+
 
 
 
