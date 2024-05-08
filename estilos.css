@@ -5,12 +5,11 @@
 }
 * {
     scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
 }
 
 body {
     background-color: var(--bg-light);
-    scroll-behavior: smooth;
-    text-rendering: optimizeLegibility;
 }
 
 p {
