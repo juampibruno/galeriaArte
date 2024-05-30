@@ -41,6 +41,8 @@ audioElement.addEventListener(
   false,
 );
 
+arrowButton.addEventListener("click", scrollToTop);
+
 function scrollToTop() {
   window.scrollTo({
       top: 0,

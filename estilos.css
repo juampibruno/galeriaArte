@@ -59,10 +59,6 @@ h3 {
     font-style: normal;
   }
 
-  @font-face {
-    font-family: 'SF Pro';
-    src: url('fonts/SF-Pro.ttf');
-}
   
 
 /* ICONOS*/
@@ -157,7 +153,7 @@ img {
     line-height: 1.17648;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-style: solid;
     border-width: 1px;
     min-width: 28px;
@@ -300,7 +296,7 @@ footer h3 {
     font-size: 14px;
     padding: 10px 10px;
     font-weight: 200;
-    font-family: 'SF Pro', Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .info {
@@ -322,7 +318,7 @@ footer h3 {
 }
 
 .contenedor-caos {
-    font-family: 'SF Pro', Helvetica, sans-serif;
+    font-family: Helvetica,Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
 }
 
